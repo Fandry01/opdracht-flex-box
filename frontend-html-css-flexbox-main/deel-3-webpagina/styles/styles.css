@@ -1,0 +1,76 @@
+/*Schrijf hier jouw css*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F3D9;
+    flex-wrap: nowrap;
+}
+
+.opdracht-1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+h1{
+    justify-content: center;
+    flex-basis: 10px;
+    align-self: center;
+    flex-grow: 1;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+h3{
+    align-self: center;
+    padding-bottom: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-basis: 100vh;
+    justify-content: space-evenly;
+
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    background-color: #C16E70;
+    border-radius: 10px;
+    justify-content: flex-end;
+    max-width: 250px;
+    height: 350px;
+}
+
+p{
+    text-align: center;
+}
+nav h4{
+text-transform: uppercase;
+    color: #fff;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #030027;
+    padding: 40px;
+    justify-content: space-between;
+
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+nav li{
+    list-style: none;
+    color: #fff;
+
+
+
+}
